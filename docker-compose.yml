@@ -3,7 +3,6 @@
 services:
   automation-test-report:
     container_name: automation-test-report
-    # build: .
     image: ghcr.io/lensimax/unrealengine-automationtestreportserver-docker:UE-5.3
     restart: always
     volumes:
