@@ -7,6 +7,6 @@ services:
     image: ghcr.io/lensimax/unrealengine-automationtestreportserver-docker:UE-5.3
     restart: always
     volumes:
-        - ./.containerdata:/report-site/site
+        - .containerdata:/report-site/site
     ports:
         - "8080:8080"
